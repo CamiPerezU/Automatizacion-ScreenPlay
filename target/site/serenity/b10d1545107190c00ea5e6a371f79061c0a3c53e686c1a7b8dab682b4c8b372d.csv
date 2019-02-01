@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Simulador de ahorro e inversion","Prueba a realizar - Validar que los campos son obligatorios","SUCCESS","2019-01-30T14:17:53.408-05:00[America/Bogota]","0.0","65.57"
+"Simulador de ahorro e inversion","Prueba a realizar - Validar lista desplegable del campo para que quieres ahorrar","SUCCESS","2019-01-30T14:18:59.221-05:00[America/Bogota]","0.0","59.44"
+"Simulador de ahorro e inversion","Prueba a realizar - Llenar el campo cuantos meses te faltan para alcanzar tu meta","SUCCESS","2019-01-30T14:19:58.914-05:00[America/Bogota]","0.0","64.06"
+"Simulador de ahorro e inversion","Prueba a realizar - Validar lista desplegable del campo selecciona el producto","ERROR","2019-01-30T14:21:03.229-05:00[America/Bogota]","0.0","114.37"
+"Simulador de ahorro e inversion","Prueba a realizar - llenar campo cuanto dinero te falta para lograr tu meta y enviar formulario","SUCCESS","2019-01-30T14:22:58.308-05:00[America/Bogota]","0.0","62.52"

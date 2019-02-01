@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Simulador de ahorro e inversion" tests="5" skipped="0" failures="1" errors="0" timestamp="2019-01-30T19:17:54" hostname="CPX-6IKEC8NIMJY" time="366.754">
+  <properties/>
+  <testcase name="Prueba a realizar - Validar que los campos son obligatorios" classname="Simulador de ahorro e inversion" time="64.861"/>
+  <testcase name="Prueba a realizar - Validar lista desplegable del campo para que quieres ahorrar" classname="Simulador de ahorro e inversion" time="59.687"/>
+  <testcase name="Prueba a realizar - Llenar el campo cuantos meses te faltan para alcanzar tu meta" classname="Simulador de ahorro e inversion" time="64.307"/>
+  <testcase name="Prueba a realizar - Validar lista desplegable del campo selecciona el producto" classname="Simulador de ahorro e inversion" time="115.074">
+    <failure message="java.lang.AssertionError: Unable to locate element{&quot;method&quot;&quot;xpath&quot;,&quot;selector&quot;&quot;//select[@name='nmSelectAhorro']/option[text() ='Fiducuenta']&quot;}(Session infochrome=71.0.3578.98)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CPX-6IKEC8NIMJY', ip: '175.33.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CAMILA~1.PER\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53139}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}&#10;Session ID: 744e9e65c93cbafd34cbd89e1ff7b66d&#10;*** Element info: {Using=xpath, value=//select[@name='nmSelectAhorro']/option[text() ='Fiducuenta']}&#13;&#10;Unable to locate element{&quot;method&quot;&quot;xpath&quot;,&quot;selector&quot;&quot;//select[@name='nmSelectAhorro']/option[text() ='Cuenta Ahorrador']&quot;}(Session infochrome=71.0.3578.98)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CPX-6IKEC8NIMJY', ip: '175.33.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CAMILA~1.PER\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53139}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}&#10;Session ID: 744e9e65c93cbafd34cbd89e1ff7b66d&#10;*** Element info: {Using=xpath, value=//select[@name='nmSelectAhorro']/option[text() ='Cuenta Ahorrador']}&#13;&#10;&#10;Expected: a value equal to &lt;3&gt;&#10;     but: &lt;1&gt; was less than &lt;3&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Unable to locate element{&quot;method&quot;&quot;xpath&quot;,&quot;selector&quot;&quot;//select[@name='nmSelectAhorro']/option[text() ='Fiducuenta']&quot;}(Session infochrome=71.0.3578.98)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CPX-6IKEC8NIMJY', ip: '175.33.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CAMILA~1.PER\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53139}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 744e9e65c93cbafd34cbd89e1ff7b66d
+*** Element info: {Using=xpath, value=//select[@name='nmSelectAhorro']/option[text() ='Fiducuenta']}
+Unable to locate element{&quot;method&quot;&quot;xpath&quot;,&quot;selector&quot;&quot;//select[@name='nmSelectAhorro']/option[text() ='Cuenta Ahorrador']&quot;}(Session infochrome=71.0.3578.98)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CPX-6IKEC8NIMJY', ip: '175.33.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CAMILA~1.PER\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53139}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 744e9e65c93cbafd34cbd89e1ff7b66d
+*** Element info: {Using=xpath, value=//select[@name='nmSelectAhorro']/option[text() ='Cuenta Ahorrador']}
+
+Expected: a value equal to &lt;3&gt;
+     but: &lt;1&gt; was less than &lt;3&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:274)
+	at com.accenture.RetoBancolombiaScreenplayCucumber.stepDefinitions.BancolombiaStepDefinitions.elegirUnElementoDesdeElArchivoExcel(BancolombiaStepDefinitions.java:131)
+	at ✽.elegir un elemento desde el archivo excel(src/test/resources/features/Bancolombia.feature:28)
+</failure>
+  </testcase>
+  <testcase name="Prueba a realizar - llenar campo cuanto dinero te falta para lograr tu meta y enviar formulario" classname="Simulador de ahorro e inversion" time="62.799"/>
+  <system-out><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Simulador Ahorro e Inversión para Carro ó Moto
+
+
+
+Se Ejecuto el when
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Simulador Ahorro e Inversión para Carro ó Moto
+
+
+
+
+
+
+
+
+
+
+Option what do you want to save
+La opción Viaje se encuentra en el campo
+
+
+Option what do you want to save
+La opción Educación se encuentra en el campo
+
+
+Option what do you want to save
+La opción Vivienda se encuentra en el campo
+
+
+Option what do you want to save
+La opción Vehículo se encuentra en el campo
+
+
+Option what do you want to save
+La opción Entretenimiento se encuentra en el campo
+
+
+Option what do you want to save
+La opción Retiro para la vejez se encuentra en el campo
+
+
+Option what do you want to save
+La opción Otro se encuentra en el campo
+
+
+8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Simulador Ahorro e Inversión para Carro ó Moto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Simulador Ahorro e Inversión para Carro ó Moto
+
+
+
+
+
+
+
+
+
+
+Option what do you want to save
+
+
+Option what do you want to save
+
+
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Simulador Ahorro e Inversión para Carro ó Moto
+
+
+
+
+
+
+
+
+
+
+
+
+]]></system-out>
+  <system-err><![CDATA[Jan 30, 2019 2:17:54 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a) on port 22151
+Only local connections are allowed.
+Jan 30, 2019 2:18:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Prueba a realizar - Validar que los campos son obligatorios
+----------------------------------------------------------------------------
+Jan 30, 2019 2:18:59 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jan 30, 2019 2:19:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Prueba a realizar - Validar lista desplegable del campo para que quieres ahorrar
+----------------------------------------------------------------------------
+Jan 30, 2019 2:19:58 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jan 30, 2019 2:20:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Prueba a realizar - Llenar el campo cuantos meses te faltan para alcanzar tu meta
+----------------------------------------------------------------------------
+Jan 30, 2019 2:21:03 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jan 30, 2019 2:21:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Prueba a realizar - Validar lista desplegable del campo selecciona el producto
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then options product should be a value equal to (3)
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Unable to locate element{"method""xpath","selector""//select[@name='nmSelectAhorro']/option[text() ='Fiducuenta']"}(Session infochrome=71.0.3578.98)For documentation on this error, please visit: https://www.seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'CPX-6IKEC8NIMJY', ip: '175.33.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CAMILA~1.PER\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53139}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}Session ID: 744e9e65c93cbafd34cbd89e1ff7b66d*** Element info: {Using=xpath, value=//select[@name='nmSelectAhorro']/option[text() ='Fiducuenta']}Unable to locate element{"method""xpath","selector""//select[@name='nmSelectAhorro']/option[text() ='Cuenta Ahorrador']"}(Session infochrome=71.0.3578.98)For documentation on this error, please visit: https://www.seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'CPX-6IKEC8NIMJY', ip: '175.33.2.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CAMILA~1.PER\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53139}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}Session ID: 744e9e65c93cbafd34cbd89e1ff7b66d*** Element info: {Using=xpath, value=//select[@name='nmSelectAhorro']/option[text() ='Cuenta Ahorrador']}Expected: a value equal to <3> but: <1> was less than <3>
+Jan 30, 2019 2:22:58 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jan 30, 2019 2:23:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Prueba a realizar - llenar campo cuanto dinero te falta para lograr tu meta y enviar formulario
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

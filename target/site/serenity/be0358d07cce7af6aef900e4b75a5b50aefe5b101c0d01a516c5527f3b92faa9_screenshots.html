@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Reto Bancolombia</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="35092028c48352f4572e6e910a71aa5d86d3bda61f46999ba5cd0212ddfe3530.html">Simulador De Ahorro E Inversion</a></span>
+                > <span class="truncate-60"><a
+                    href="be0358d07cce7af6aef900e4b75a5b50aefe5b101c0d01a516c5527f3b92faa9.html">Prueba a realizar - Validar lista desplegable del campo para que quieres ahorrar </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 30-01-2019 14:18</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Simulador De Ahorro E Inversion </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario<br />
+Quiero ingresar en el formulario de ahorro e inversion<br />
+Para validar que este funcionando correctamente
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: Abrir el navegador en la pagina grupo Bancolombia e ingresar en el formulario de simulador de ahorro
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0218fdbc5052f69d3f1f3166bb7e2fb1aaba25c78a7c7745c14ed1ccd35fa8dc.html">Scenario2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="1af5ff8b162caa8933e0fe80ed209d2a0b7583589366f4c52ae1e5730b2d8f27.html">Feature
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Prueba a realizar - Validar lista desplegable del campo para que quieres ahorrar
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="d3233c03c9a45897d60f175fb04ab9be03755ffed83074ff50abe6922a1591b5.png" title=" Given que Accenture Testing se encuentra en el formulario de Bancolombia simulador de ahorro" width="1600"/>
+                <img src="d3233c03c9a45897d60f175fb04ab9be03755ffed83074ff50abe6922a1591b5.png" title=" Open the browser page Bancolombia" width="1600"/>
+                <img src="d3233c03c9a45897d60f175fb04ab9be03755ffed83074ff50abe6922a1591b5.png" title=" Camila opens the Bancolombia home page" width="1600"/>
+                <img src="cf6eb422bbd03c3fe476a6dee72e37c035b0e41190869108bd73f722a2df82e8.png" title=" Camila opens the Bancolombia home page (completed)" width="1600"/>
+                <img src="cf6eb422bbd03c3fe476a6dee72e37c035b0e41190869108bd73f722a2df82e8.png" title=" Open the browser page Bancolombia (completed)" width="1600"/>
+                <img src="cf6eb422bbd03c3fe476a6dee72e37c035b0e41190869108bd73f722a2df82e8.png" title=" Page Simulator" width="1600"/>
+                <img src="cf6eb422bbd03c3fe476a6dee72e37c035b0e41190869108bd73f722a2df82e8.png" title=" Camila clicks on Select people" width="1600"/>
+                <img src="578722083741ae4864cadc87170fd4c7b1d34eba9ab36068951603a016446e53.png" title=" Camila clicks on Select people (completed)" width="1600"/>
+                <img src="578722083741ae4864cadc87170fd4c7b1d34eba9ab36068951603a016446e53.png" title=" Page Simulator (completed)" width="1600"/>
+                <img src="578722083741ae4864cadc87170fd4c7b1d34eba9ab36068951603a016446e53.png" title=" Page Simulator" width="1600"/>
+                <img src="578722083741ae4864cadc87170fd4c7b1d34eba9ab36068951603a016446e53.png" title=" Camila clicks on Select need" width="1600"/>
+                <img src="e07b3085661f19380398f69c2946d063979c96dcceaa7de49a5bc7e25d92a728.png" title=" Camila clicks on Select need (completed)" width="1600"/>
+                <img src="e07b3085661f19380398f69c2946d063979c96dcceaa7de49a5bc7e25d92a728.png" title=" Page Simulator (completed)" width="1600"/>
+                <img src="e07b3085661f19380398f69c2946d063979c96dcceaa7de49a5bc7e25d92a728.png" title=" Page Simulator" width="1600"/>
+                <img src="e07b3085661f19380398f69c2946d063979c96dcceaa7de49a5bc7e25d92a728.png" title=" Camila clicks on Carro o Moto" width="1600"/>
+                <img src="7112613d895c51fbc06b47c72950176e00396c8f41b41eda4079ef5b7e0b2798.png" title=" Camila clicks on Carro o Moto (completed)" width="1600"/>
+                <img src="7112613d895c51fbc06b47c72950176e00396c8f41b41eda4079ef5b7e0b2798.png" title=" Page Simulator (completed)" width="1600"/>
+                <img src="7112613d895c51fbc06b47c72950176e00396c8f41b41eda4079ef5b7e0b2798.png" title=" Page Simulator" width="1600"/>
+                <img src="7112613d895c51fbc06b47c72950176e00396c8f41b41eda4079ef5b7e0b2798.png" title=" Camila clicks on Button simulator" width="1600"/>
+                <img src="042acf01f48192bc1559e5c06ecf7fd78461017e5d2b6b7d1f707b0bc1070f05.png" title=" Camila clicks on Button simulator (completed)" width="1600"/>
+                <img src="042acf01f48192bc1559e5c06ecf7fd78461017e5d2b6b7d1f707b0bc1070f05.png" title=" Page Simulator (completed)" width="1600"/>
+                <img src="042acf01f48192bc1559e5c06ecf7fd78461017e5d2b6b7d1f707b0bc1070f05.png" title=" Camila tab" width="1600"/>
+                <img src="e28877703c78c454b03d442576e3e48c7c07f9c1dee3272daedeadb1b7cd0b52.png" title=" Camila tab (completed)" width="1600"/>
+                <img src="e28877703c78c454b03d442576e3e48c7c07f9c1dee3272daedeadb1b7cd0b52.png" title=" Given que Accenture Testing se encuentra en el formulario de Bancolombia simulador de ahorro (completed)" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" When camila quiere validar que se encuentran cada elemento de la lista desplegable" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Page Simulator" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Camila clicks on Select option" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Page Simulator (completed)" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" When camila quiere validar que se encuentran cada elemento de la lista desplegable (completed)" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Then elegir un elemento desde un archivo excel" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Then validate select should be a string containing 'Viaje'" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Then validate select should be a string containing 'Educaci&amp;oacute;n'" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Then validate select should be a string containing 'Vivienda'" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Then validate select should be a string containing 'Veh&amp;iacute;culo'" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Then validate select should be a string containing 'Entretenimiento'" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Then validate select should be a string containing 'Retiro para la vejez'" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Then validate select should be a string containing 'Otro'" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Then options should be a value equal to (8)" width="1600"/>
+                <img src="64c0bdae436f2001d90edd96d9639dd9630a9927582cdc2be54f5a825faa4579.png" title=" Then elegir un elemento desde un archivo excel (completed): <span class='success-color'>SUCCESS</span>" width="1600"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.30</span>
+</div>
+</body>
+</html>
